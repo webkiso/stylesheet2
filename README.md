@@ -12190,7 +12190,7 @@ phina.namespace(function() {
           titleLabel: {
             className: 'phina.display.Label',
             arguments: {
-              text: "＠13号館裏",
+              text: "＠図書館裏",
               fill: params.fontColor,
               stroke: false,
               fontSize: 64,
@@ -12362,7 +12362,7 @@ phina.namespace(function() {
       defaults: {
         score: 16,
 
-        message: 'マムシと息切れに注意。',
+        message: '首都大が山にあるって実感。',
         hashtags: 'phina_js,game,javascript',
         url: phina.global.location && phina.global.location.href,
 
