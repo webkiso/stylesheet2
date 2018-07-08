@@ -12305,22 +12305,7 @@ phina.namespace(function() {
             y: this.gridY.span(9),
           },
 
-          shareButton: {
-            className: 'phina.ui.Button',
-            arguments: [{
-              text: '⬅︎',
-              width: 128,
-              height: 128,
-              fontColor: params.fontColor,
-              fontSize: 50,
-              cornerRadius: 64,
-              fill: 'rgba(240, 240, 240, 0.5)',
-              // stroke: '#aaa',
-              // strokeWidth: 2,
-            }],
-            x: this.gridX.center(-3),
-            y: this.gridY.span(12),
-          },
+          
           playButton: {
             className: 'phina.ui.Button',
             arguments: [{
