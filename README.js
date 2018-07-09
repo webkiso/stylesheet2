@@ -12342,6 +12342,23 @@ phina.namespace(function() {
       window.open('https://www.google.co.jp/?client=safari&channel=iphone_bm');
     };
     },
+    
+       // オリジナルのボタンを追加してみる
+    var circle = CircleShape({
+      radius: 64,
+      fill: 'white',
+      stroke: null,
+    }).addChildTo(this);
+    // 位置を調整
+    circle.setPosition(320, 840);
+    // タッチを有効に
+    circle.interactive = true;
+    // クリック時の処理を登録
+    circle.onclick = function() {
+      // 特定の URL を開く
+      window.open('https://phiary.me');
+    };
+
 
     _static: {
       defaults: {
